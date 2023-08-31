@@ -1,0 +1,261 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+	font-weight: bold;
+
+
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: modabold;
+	font-size: 20px;
+}
+
+@font-face {
+	src: url('bernardo-moda.modabold.ttf');
+	font-family: modabold;
+}
+@font-face {
+	src: url('benilla-calligraphy.regular.ttf');
+	font-family: benila;
+}
+@font-face {
+	src: url('la-gagliane.personal-use.otf');
+	font-family: gagliane;
+}
+
+#logo {
+	font-family: benila;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-size: 5px;
+	font-weight: bolder;
+	padding-left: 500px;
+	height: 30px;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+
+}
+
+ul li {
+	display: inline;
+	padding: 0 30px;
+}
+
+ul li:hover {
+	color: #fb8500;
+	text-decoration: underline;
+}
+
+
+#upper-ribbon-products {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background: white;
+	opacity: 0.7;
+	width: 100%;
+}
+
+#upper-ribbon-products ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#title-head {
+	margin: 0;
+	padding: 0;
+}
+
+#body-div {
+	background: #ffdab9;/*#ffdab9*/
+	height: 500px;
+	display: flex;
+	width: 100%;
+}
+
+#head-image {
+	background-image: url("https://images.unsplash.com/photo-1498551172505-8ee7ad69f235?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60");
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.body-div-image {
+	height: 500px;
+	width: 500px;
+	
+}
+
+.body-div-quote {
+	font-family: benila;
+	font-size: 10x;
+	padding-left: 30px;
+}
+
+#body-div-quote-sect {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.shop-btn {
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weight: bolder;
+	border: none;
+	font-family: inherit;
+	font-size: 18px;
+	background: #ee9b00;
+	color: white;
+}
+
+#footer {
+	background: black;
+	font-family: inherit;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 15px 0;
+	margin: 0;
+}
+
+/*Clothes Section*/
+
+#clothe-header-image-section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.clothe-img-main {
+	width: 100%;
+	height: 500px;
+
+}
+
+.clothe-img-main-quotes-h1 {
+	position: absolute;
+	top: 250px;
+	left: 35%;
+	color: white;
+	font-size: 50px;
+	width: 100%;
+}
+
+.clothe-img-main-quotes-h5 {
+	position: absolute;
+	top: 300px;
+	left: 30%;
+	color: white;
+	margin-top: 20px;
+	font-size: 20px;
+	width: 100%;
+}
+
+img, h1, h5, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#her-clothes-section {
+	text-align: center;
+	
+	margin: 0;
+	padding: 10px;
+}
+
+.her-clothes-h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#clothes-our-products-section {
+	display: flex;
+	justify-content: end;
+	margin: 0;
+	padding:0;
+}
+
+#her-clothes-quote-section {
+	margin: 0;
+	padding:0;
+	
+	
+}
+
+#her-clothes-quotes {
+	text-align: center;
+	margin: 0;
+	padding: 150px 0 0 20px;
+	background: #ffe5ec;
+}
+
+#here-they-are {
+	text-align: center;
+	margin: 0;
+	
+}
+
+#here-they-are-h1{
+	padding: 0;
+	margin: 0;
+}
+/*Products*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: modabold;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card img {
+	height: 200px;
+}
+
+/*Product row design*/
+.product-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 30px 0; 
+	
+}
+/*End of Clothes Section*/
