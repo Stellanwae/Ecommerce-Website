@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	
+
 	font-weight: bold;
 
 
@@ -25,19 +25,26 @@ body {
 	src: url('la-gagliane.personal-use.otf');
 	font-family: gagliane;
 }
+@font-face {
+	src: url("Vonique 64 Bold.ttf");
+	font-family: vonique;
+}
 
 #logo {
 	font-family: benila;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding: 0;
+	padding-bottom: 0px;
 	margin: 0;
 	font-size: 5px;
 	font-weight: bolder;
 	padding-left: 500px;
 	height: 30px;
 	width: 100%;
+}
+a {
+	text-decoration: none!important;
 }
 
 ul {
@@ -57,18 +64,51 @@ ul li:hover {
 
 
 #upper-ribbon-products {
-	padding-top: 0px;
-	padding-bottom: 5px;
+	
+	padding-top: 20px;
+	padding-bottom: 0px;
 	background: white;
-	opacity: 0.7;
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #upper-ribbon-products ul li a {
 	text-decoration: none;
 	color: black;
 }
+.navbar-container {
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background: white;
+	width: 100%;
+}
 
+/* The cart area */
+.cartamount {
+	position: relative;
+	display: flex;
+	gap: 10px;
+	background: black;
+	color: white;
+	font-size: 25px;
+	border-radius: 50%;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+.cartamountbadge {
+	position: absolute;
+	top: -15px;
+	right: -5px;
+	padding: 1px 4px;
+	font-size: 16px;
+	background: red;
+	border-radius: 5px;
+}
 
 #title-head {
 	margin: 0;
@@ -91,16 +131,83 @@ ul li:hover {
 	background-repeat: no-repeat;
 }
 
-.body-div-image {
-	height: 500px;
-	width: 500px;
-	
+/*Features Section*/
+.feature-section {
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	background: #f72585;
+	padding: 30px;
+	margin: 70px 0;
+	height: 400px;
+	font-family: vonique;
+	width: 100%;
 }
 
+.feature-section-info  {
+	padding-left: 30px;
+
+}
+
+.feature-section-info h4 {
+	font-family: modabold;
+	font-size: 25px;
+}
+
+.feature-section-info
+.body-div-image {
+	height: 500px;
+	width: 500px;	
+}
+
+.about-section {
+	background: #d9d9d9;
+	height: 500px;
+	padding: 60px;
+	text-align: center;
+
+}
+.about-section h1 {
+	font-family: vonique;
+}
+
+.team-section {
+	background: #f5cac3;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin-top: 60px;
+	padding: 60px;
+}
+
+.team-section img {
+	border-radius: 50%;
+	margin-right: 30px;
+}
 .body-div-quote {
 	font-family: benila;
 	font-size: 10x;
 	padding-left: 30px;
+}
+.team-section h1, h2 {
+	font-family: vonique;
+}
+.contacts-icon, i {
+	padding: 10px;
+	justify-content: start;
+}
+#contacts-icon {
+	cursor: pointer;
+	color: black;
+
+}
+
+.bi-twitter {
+	text-decoration: none;
+}
+#contacts-icon a i {
+	text-decoration: none!important;
 }
 
 #body-div-quote-sect {
@@ -130,6 +237,8 @@ ul li:hover {
 	justify-content: space-evenly;
 	padding: 15px 0;
 	margin: 0;
+
+
 }
 
 /*Clothes Section*/
@@ -194,8 +303,7 @@ img, h1, h5, h4 {
 #her-clothes-quote-section {
 	margin: 0;
 	padding:0;
-	
-	
+
 }
 
 #her-clothes-quotes {
@@ -259,3 +367,35 @@ img, h1, h5, h4 {
 	
 }
 /*End of Clothes Section*/
+/*new clothes section*/
+
+.container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
