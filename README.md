@@ -18,7 +18,6 @@ Features
 Usage
 Products
 Payment
-Shipping
 Returns and Exchanges
 Contact Us
 
@@ -41,7 +40,6 @@ Our Women's Fashion E-commerce website offers a range of features to enhance you
 * Shopping Cart: Add products to your cart, review your selections, and proceed to checkout.
 Secure Checkout: We use industry-standard security protocols to protect your personal and payment information.
 * Payment Options: Choose from various payment methods, including credit/debit cards and digital wallets.
-Shipping Options: Select your preferred shipping method and track your orders.
 * Returns and Exchanges: Learn about our return and exchange policies.
 ## Usage
 1. Visit our website at www.examplefashion.com.
@@ -61,18 +59,11 @@ Our website offers a diverse range of products to suit various tastes and occasi
 We accept the following payment methods:
 
 - Credit and Debit Cards (Visa, MasterCard, American Express)
-- PayPal
-- Apple Pay
-- Google Pay
+- Mpesa
+- Apple Pay (yet to come)
+- Google Pay (yet to come)
 Rest assured that your payment information is processed securely.
 
-## Shipping
-We offer various shipping options to accommodate your needs:
-
-Standard Shipping: Estimated delivery within 5-7 business days.
-Express Shipping: Get your order within 2-3 business days.
-International Shipping: We ship worldwide; delivery times may vary.
-Once your order ships, you will receive a tracking number to monitor the delivery progress.
 
 ## Returns and Exchanges
 If you're not completely satisfied with your purchase, we offer hassle-free returns and exchanges. Please review our Returns and Exchanges Policy for detailed information on the process.
@@ -80,7 +71,37 @@ If you're not completely satisfied with your purchase, we offer hassle-free retu
 ## Contact Us
 Have questions or need assistance? Our customer support team is here to help.
 
-Email: support@examplefashion.com
-Phone: +1 (123) 456-7890
-Address: 123 Fashion Avenue, Cityville, State, ZIP
-Thank you for choosing our Women's Fashion E-commerce website. We hope you enjoy your shopping experience and find the perfect additions to your wardrobe!
+Email: stellanic2011@gmail.com
+[LinkedIn](https://www.linkedin.com/in/stella-nicole-3b624814b/)
+
+## Licensing
+
+## License
+
+This Women's Fashion E-commerce website is open-source and available under the [MIT License](LICENSE).
+
+### MIT License
+
+Copyright (c) [2023] [Stella Nwae]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Please replace `[Year]` and `[Your Name]` with the appropriate information specific to your project. The MIT License is a permissive open-source license that allows others to use, modify, and distribute your code with minimal restrictions.
+
