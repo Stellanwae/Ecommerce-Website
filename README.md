@@ -108,3 +108,8 @@ SOFTWARE.
 
 Please replace `[Year]` and `[Your Name]` with the appropriate information specific to your project. The MIT License is a permissive open-source license that allows others to use, modify, and distribute your code with minimal restrictions.
 
+## My Story
+
+-----
+Get the whole story about this website [here](https://medium.com/@stellanic2011/e-commerce-chronicles-e0c35a09f886)
+
