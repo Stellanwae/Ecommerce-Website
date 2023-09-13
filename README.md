@@ -11,7 +11,8 @@
 [https://vercel.com/stellanwae/ecommerce-website-cmpe](https://ecommerce-website-cmpe.vercel.app/)https://ecommerce-website-cmpe.vercel.app/
 
 ## Introduction
-
+This Ecommerce site is for sellling women clothes, shoes and hats. 
+You can find the project [here](https://vercel.com/stellanwae/ecommerce-website-cmpe)
 ## Installation
 
 ## Usage
